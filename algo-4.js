@@ -24,5 +24,11 @@ const persons = [
 ];
 
 function findAdults(arr) {
-  // Your code here !
+  return arr.filter((person) => {
+    let female = person.sex === 'female';
+    return female;
+  });
+  
 }
+
+console.log(findAdults(persons));

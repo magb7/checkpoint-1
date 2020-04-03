@@ -117,8 +117,12 @@ form button {
 
 .namelist li {
     font-size: 1.7vw;
-    padding: 2px 0 2px 50px;
+    padding: 2px;
     text-align: end;
+}
+
+.number li {
+    padding-left: 50px;
 }
 
 .number li:nth-of-type(9){

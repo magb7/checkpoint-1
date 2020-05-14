@@ -22,15 +22,48 @@
     <main class="container">
 
         <section class="desktop">
-            <img src="image/whisky.png" alt="a whisky glass" class="whisky" />
+            <img src="image/whisky.png" alt="a whisky glass" class="whisky"  id="glass" />
 
             <div class="pages">
                 <div class="page leftpage">
-                    Add a bribe
-                    <!-- TODO : Form -->
+                   <h2>Add a bribe</h2> 
+                    <form>
+                        <label for="name">Name</label>
+                        <input id="name" name="gambler_name" type="text" required>
+                        <label>Payement</label>
+                        <textarea id="payements" name="gambler_payements" required></textarea>
+                        <button type="submit">Pay !</button>
+                    </form>
                 </div>
 
                 <div class="page rightpage">
+                    <h2>S</h2>
+                    <div class="namelist">
+                        <ul class="names">
+                            <li>Sam Burns</li>
+                            <li>Samuel Yans</li>
+                            <li>Simon Pogg</li>
+                            <li>Sophia Maria</li>
+                            <li>Stacie Hunberg</li>
+                            <li>Steve Grant</li>
+                            <li>Steve Porcher</li>
+                            <li>Sylvester Stallan</li>
+                            <li>Szen Tren</li>
+                            <li>Total</li>
+                        </ul>
+                        <ul class="number">
+                            <li>100€</li>
+                            <li>52563€</li>
+                            <li>52€</li>
+                            <li>452€</li>
+                            <li>568€</li>
+                            <li>1000€</li>
+                            <li>7865€</li>
+                            <li>77897€</li>
+                            <li>562€</li>
+                            <li>141059€</li>
+                        </ul>
+                    </div>
                     <!-- TODO : Display bribes and total payment -->
                 </div>
             </div>
